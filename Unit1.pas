@@ -35,7 +35,7 @@ type
     { Public declarations }
   end;
 
-  const TOKEN = 'fXSsTz6dIdZ75UnLgF7DyiQmpAyjjCgxJ3SWSmAl9qI';
+  const TOKEN = '';
 
 var
   Form1: TForm1;
@@ -63,7 +63,7 @@ begin
   idHttp.Request.CustomHeaders.Text := 'Authorization:Bearer fXSsTz6dIdZ75UnLgF7DyiQmpAyjjCgxJ3SWSmAl9qI';
   try
     try
-//      RequestBody := TStringStream.Create('message="'+ UTF8Encode(txtMessage.Text) +'"');    // UTF8Encode ���е���ѡ����������
+//      RequestBody := TStringStream.Create('message="'+ UTF8Encode(txtMessage.Text) +'"');    // UTF8Encode à¾ÃÒÐµÑÇÍÑ¡ÉÃà»ç¹ÀÒÉÂä·Â
 //      ResponseBody := 'message='+ UTF8Encode(txtMessage.Text) +'&';
 //      ResponseBody := ResponseBody + 'stickerId=125&';
 //      ResponseBody := ResponseBody + 'stickerPackageId=1&';
@@ -105,7 +105,7 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-    txtMessage.Text := '���ͺ�觨ҡ Delphi 7 Indy ����ٻ�Ҿ ';
+    txtMessage.Text := '·´ÊÍºÊè§¨Ò¡ Delphi 7 Indy áÅÐÃÙ»ÀÒ¾ ';
     Label1.Caption := 'Delphi 7 Indy ' + gsIdVersion;
     LineNotify :=  TLineNotify.New;
 end;
