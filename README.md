@@ -12,4 +12,6 @@ Line Notify คืออะไร Line Notify คือบริการที�
     .imageFile('Horned_logo.jpeg')
     .SendToLineServer;
 ```
+## Delphi Versions
+`Line-Notify` works with Delphi 7.
 
