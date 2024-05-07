@@ -60,7 +60,7 @@ begin
 //  idHttp.Request.ContentType := 'multipart/form-data';
   idHttp.Request.ContentType := 'application/x-www-form-urlencoded';
 //  idHttp.Request.ContentType := 'application/json';
-  idHttp.Request.CustomHeaders.Text := 'Authorization:Bearer fXSsTz6dIdZ75UnLgF7DyiQmpAyjjCgxJ3SWSmAl9qI';
+  idHttp.Request.CustomHeaders.Text := 'Authorization:Bearer fXSsTz6dIdZ75UnLgF7DyiQmpAyjjCgxJ3SWSmAl9qX';
   try
     try
 //      RequestBody := TStringStream.Create('message="'+ UTF8Encode(txtMessage.Text) +'"');    // UTF8Encode à¾ÃÒÐµÑÇÍÑ¡ÉÃà»ç¹ÀÒÉÂä·Â
